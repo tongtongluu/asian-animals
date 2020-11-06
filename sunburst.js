@@ -612,8 +612,7 @@ function chartmake(divname, animaldata) {
     }); // end am4core.ready()
 }
 
-//d3.select("#graphs").append("div").attr("class", "columnMedium").attr("id", "animal");
-//chartmake("chartdiv", animals[0]["children"]);
+
 
 
 animals.forEach(function(animal) {
