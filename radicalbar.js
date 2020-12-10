@@ -83,7 +83,7 @@ function makeCharts() {
         .attr('transform', function(d, i, j) { return 'translate(-20,0)' })
         .on("mouseover", function(d, i) {
             d3.select("#changeme")
-                .attr("src", "resources/icon/old/" + dataname[i] + ".svg")
+                .attr("src",  dataname[i] + ".svg")
         })
         .on("mouseout", function(d, i) {
             d3.select("#changeme").attr("src", "resources/icon/old/undefined beasts.svg")
