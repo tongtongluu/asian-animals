@@ -46,7 +46,7 @@ function makeCharts() {
     data[23] = { name: "1 | Cow", value: 1 };
     data[24] = { name: "1 | Duck", value: 1 };
     data[25] = { name: "1 | Leopard", value: 1 };
-    var dataname = ["Undefined beasts", "Bird", "Horse", "Lion", "Bear", "Elephant", "Dragon", "Deer", "Monkey", "Butterfly", "Dog", "Rabbit", "Sheep", "Tiger", "Antelope", "Cicada", "Fish", "Phoenix", "Serpent", "Taotie", "Turtle", "Buffalo", "Cheetah", "Cow", "Duck", "Leopard"];
+    var dataname = ["Undefined beasts", "bird", "horse", "lion", "bear", "elephant", "dragon", "deer", "monkey", "butterfly", "dog", "rabbit", "sheep", "tiger", "antelope", "cicada", "fish", "phoenix", "serpent", "taotie", "turtle", "buffalo", "cheetah", "cow", "duck", "leopard"];
     console.log(data);
 
     let scale = d3.scaleLinear()
