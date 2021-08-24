@@ -134,7 +134,7 @@ function makeCharts() {
             .style('display', 'inline-block')
             .html(d.value);
         d3.select("#changeme")
-            .attr("src", dataname[i] + ".svg")
+            .attr("src", "resources/icon/old/" + dataname[i] + ".svg")
     }
 
     function hideTooltip() {
